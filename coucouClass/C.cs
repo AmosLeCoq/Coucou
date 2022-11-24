@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Coucou
+namespace Model
 {
     public class C
     {
@@ -13,17 +13,9 @@ namespace Coucou
         #endregion private
 
         #region public
-        public C(string phraseC)
+        public string ToString()
         {
-            _phraseC = phraseC;
-        }
-
-        public string PhraseC
-        {
-            get
-            {
-                return _phraseC;
-            }
+            return "Je suis malade avec un certificat";
         }
         #endregion public
     }

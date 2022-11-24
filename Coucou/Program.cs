@@ -1,14 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Coucou;
 
-Console.WriteLine("lettre:");
+using Model;
 
-A test = new A("Coucou je suis A");
-B test1 = new B("Coucou je suis A et B");
-C test2 = new C("Je suis malade avec certificat");
+public class Program
+{
+    static void Main()
+    {
+        A a = new A();
+        B b = new B();
+        C c = new C();
 
-//string lettre = Console.ReadLine();
+        //string lettre = Console.ReadLine();
 
-Console.WriteLine(test.PhraseA);
-Console.WriteLine(test1.PhraseB);
-Console.WriteLine(test2.PhraseC);
+        Console.WriteLine(a.ToString());
+        Console.WriteLine(b.ToString());
+        Console.WriteLine(c.ToString());
+    }
+}
+    

@@ -4,26 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Coucou
+namespace Model
 {
     public class A
     {
         #region private
-        private string _phraseA= "Coucou je suis A";
+        
         #endregion private
 
         #region public
-        public A(string phraseA)
+        public string ToString()
         {
-            _phraseA = phraseA;
-        }
-
-        public string PhraseA
-        {
-            get
-            {
-                return _phraseA;
-            }
+            return "Coucou je suis A";
         }
         #endregion public
     }
