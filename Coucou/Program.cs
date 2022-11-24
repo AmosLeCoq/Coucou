@@ -3,25 +3,12 @@ using Coucou;
 
 Console.WriteLine("lettre:");
 
-A r = new rep("Coucou je suis A", "Coucou je suis A et B", "Je suis malade avec certificat");
+A test = new A("Coucou je suis A");
+B test1 = new B("Coucou je suis A et B");
+C test2 = new C("Je suis malade avec certificat");
 
+//string lettre = Console.ReadLine();
 
-string lettre = Console.ReadLine();
-
-switch (lettre)
-{
-	case "A":
-        Console.WriteLine(A.PhraseA);
-        break;
-        
-	case "B":
-	Console.WriteLine();
-	break;
-        
-	case "C":
-	Console.WriteLine(r.C);
-	break;
-        
-	default:
-	break;
-}
+Console.WriteLine(test.PhraseA);
+Console.WriteLine(test1.PhraseB);
+Console.WriteLine(test2.PhraseC);

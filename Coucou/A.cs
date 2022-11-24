@@ -9,7 +9,7 @@ namespace Coucou
     public class A
     {
         #region private
-        private string _phraseA;
+        private string _phraseA= "Coucou je suis A";
         #endregion private
 
         #region public
@@ -18,7 +18,7 @@ namespace Coucou
             _phraseA = phraseA;
         }
 
-        public string phraseA
+        public string PhraseA
         {
             get
             {

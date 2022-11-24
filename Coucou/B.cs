@@ -15,7 +15,7 @@ namespace Coucou
         #region public
         public B(string phraseB)
         {
-            _phraseB = ;
+            _phraseB = phraseB;
         }
 
         public string PhraseB

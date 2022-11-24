@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Coucou
 {
-    public class B
+    public class C
     {
         #region private
-        private string _phraseB;
+        private string _phraseC;
         #endregion private
 
         #region public
-        public B(string phraseB)
+        public C(string phraseC)
         {
-            _phraseB = ;
+            _phraseC = phraseC;
         }
 
-        public string PhraseB
+        public string PhraseC
         {
             get
             {
-                return _phraseB;
+                return _phraseC;
             }
         }
         #endregion public
