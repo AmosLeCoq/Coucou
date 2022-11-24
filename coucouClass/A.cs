@@ -20,7 +20,7 @@ namespace Model
 
         public string test()
         {
-            return "\n----------";
+            return "\n--------------";
         }
 
         public DateTime OpenDay(DateTime day)

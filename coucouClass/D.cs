@@ -14,7 +14,7 @@ namespace Model
         #region public
         public override string ToString()
         {
-            return "D :" + base.ToString().Split(":")[1]+base.OpenDay(DateTime.Now)+" et on attend 15'000 personnes"+base.test();
+            return "D :" + base.ToString().Split(":")[1]+": "+base.OpenDay(DateTime.Now)+" et on attend 15'000 personnes"+base.test();
         }
         #endregion public
     }
