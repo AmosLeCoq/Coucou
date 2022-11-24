@@ -13,7 +13,7 @@ namespace Model
         #endregion private
 
         #region public
-        public string ToString()
+        public override string ToString()
         {
             return "Coucou je suis A";
         }

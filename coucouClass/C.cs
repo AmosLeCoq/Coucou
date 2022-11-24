@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class C
+    public class C : B
     {
         #region private
         private string _phraseC;
         #endregion private
 
         #region public
-        public string ToString()
+        public override string ToString()
         {
-            return "Je suis malade avec un certificat";
+            return base.ToString()+" c";
         }
         #endregion public
     }
