@@ -16,7 +16,7 @@ namespace Model
         public override string ToString()
         {
             base.OpenDay(DateTime.Now).ToString();
-            return base.ToString() + base.OpenDay(DateTime.Now).ToString() +" Heu non, dans 2 jours"+base.test();
+            return "B :"+base.ToString().Split(":")[1] + base.OpenDay(DateTime.Now).ToString() +" Heu non, dans 2 jours"+base.test();
         }
         #endregion public
     }

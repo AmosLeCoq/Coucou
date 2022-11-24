@@ -15,7 +15,7 @@ namespace Model
         #region public
         public override string ToString()
         {
-            string phrase = base.ToString().Split("le")[0]+"... bof. Je n'y vais pas !";
+            string phrase = "C :"+base.ToString().Split(":")[1]+": bof. Je n'y vais pas !";
             return phrase+base.test();
         }
         #endregion public

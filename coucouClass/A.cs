@@ -15,7 +15,7 @@ namespace Model
         #region public
         public override string ToString()
         {
-            return "Les portes ouvertes du CPNV sont le : ";
+            return "A : Les portes ouvertes du CPNV sont le : ";
         }
 
         public string test()
