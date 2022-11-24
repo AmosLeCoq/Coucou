@@ -4,18 +4,18 @@ using Coucou;
 Console.WriteLine("lettre:");
 
 A r = new rep("Coucou je suis A", "Coucou je suis A et B", "Je suis malade avec certificat");
-A salut = new List<A>();
+
 
 string lettre = Console.ReadLine();
 
 switch (lettre)
 {
 	case "A":
-	Console.WriteLine(r.A);
-	break;
+        Console.WriteLine(A.PhraseA);
+        break;
         
 	case "B":
-	Console.WriteLine(r.B);
+	Console.WriteLine();
 	break;
         
 	case "C":
