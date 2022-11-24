@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class C : B
+    public class D : A
     {
         #region private
-
         #endregion private
 
         #region public
         public override string ToString()
         {
-            string phrase = base.ToString().Split("le")[0]+"... bof. Je n'y vais pas !";
-            return phrase+base.test();
+           
+            return base.ToString()+base.OpenDay(DateTime.Now)+" et on attend 15'000 personnes"+base.test();
         }
         #endregion public
     }

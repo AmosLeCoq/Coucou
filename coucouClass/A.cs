@@ -15,7 +15,17 @@ namespace Model
         #region public
         public override string ToString()
         {
-            return "Coucou je suis A";
+            return "Les portes ouvertes du CPNV sont le : ";
+        }
+
+        public string test()
+        {
+            return "\n----------";
+        }
+
+        public DateTime OpenDay(DateTime day)
+        {
+            return DateTime.Now;
         }
         #endregion public
     }

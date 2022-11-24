@@ -9,12 +9,14 @@ public class Program
         A a = new A();
         B b = new B();
         C c = new C();
+        D d = new D();
 
         //string lettre = Console.ReadLine();
 
-        Console.WriteLine(a.ToString());
+        Console.WriteLine(a.ToString()+a.OpenDay(DateTime.Now)+a.test());
         Console.WriteLine(b.ToString());
         Console.WriteLine(c.ToString());
+        Console.WriteLine(d.ToString());
     }
 }
     

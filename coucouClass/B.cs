@@ -9,13 +9,14 @@ namespace Model
     public class B : A
     {
         #region private
-        private string _phraseB;
+
         #endregion private
 
         #region public
         public override string ToString()
         {
-            return base.ToString() + " et B";
+            base.OpenDay(DateTime.Now).ToString();
+            return base.ToString() + base.OpenDay(DateTime.Now).ToString() +" Heu non, dans 2 jours"+base.test();
         }
         #endregion public
     }
