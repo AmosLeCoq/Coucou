@@ -3,8 +3,8 @@ using Coucou;
 
 Console.WriteLine("lettre:");
 
-rep r = new rep("Coucou je suis A", "Coucou je suis A et B", "Je suis malade avec certificat");
-rep salut = new List<rep>();
+A r = new rep("Coucou je suis A", "Coucou je suis A et B", "Je suis malade avec certificat");
+A salut = new List<A>();
 
 string lettre = Console.ReadLine();
 
