@@ -11,8 +11,6 @@ public class Program
         C c = new C();
         D d = new D();
 
-        //string lettre = Console.ReadLine();
-
         Console.WriteLine(a.ToString()+a.OpenDay(DateTime.Now)+a.test());
         Console.WriteLine(b.ToString());
         Console.WriteLine(c.ToString());
